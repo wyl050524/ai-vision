@@ -1,0 +1,196 @@
+{
+  "package": "AI产品视觉识别-本地版",
+  "author": "王云龙",
+  "created_at": "2026-07-24T19:44:52+08:00",
+  "purpose": "仅供本地运行与展示",
+  "privacy": {
+    "hosting_project_id_included": false,
+    "credentials_included": false,
+    "original_product_images_included": 5,
+    "risk_note": "包内含产品图片与公开官网链接，不含账号凭据、远程仓库信息或线上站点绑定。"
+  },
+  "excluded": [
+    ".git",
+    "node_modules",
+    "dist",
+    ".vinext",
+    ".wrangler",
+    "work",
+    "outputs"
+  ],
+  "manifest_scope": "entries 不包含本清单文件自身",
+  "file_count": 34,
+  "total_size_bytes": 4530958,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 533,
+      "sha256": "6b23169bb57fa6c13637b1da17a8e0809896304c5d07d0eddbfee6575b2a9ea7"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "size_bytes": 31,
+      "sha256": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "size_bytes": 2490,
+      "sha256": "1407f614cc83d7049fdb08cd713d2516866ba58e24e820f7f4fd9d718b9d3007"
+    },
+    {
+      "path": "app/globals.css",
+      "size_bytes": 19919,
+      "sha256": "24c611c39b52d6cf3dc32587cb4b91857caf2a1faff8d6ac865fbc639329e821"
+    },
+    {
+      "path": "app/layout.tsx",
+      "size_bytes": 1105,
+      "sha256": "7915be8f225f7f2766e1ac6ae7a10a858e10ba923b9a98f2bf2750eed082a2a7"
+    },
+    {
+      "path": "app/page.tsx",
+      "size_bytes": 113,
+      "sha256": "6c8df3050b08041b5549b8a8f565b409935587afbdfc2798ba1395f74030bfa4"
+    },
+    {
+      "path": "app/ProductVision.tsx",
+      "size_bytes": 18958,
+      "sha256": "7731e7fc6942006d190de9094a7fe4a756225a29619ed4b143efd819d0e2615f"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "size_bytes": 1299,
+      "sha256": "abd6bc3a592961e978ab72fceb8ee7647824d9a2321ee5b5777b2a05d69526cc"
+    },
+    {
+      "path": "db/index.ts",
+      "size_bytes": 436,
+      "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4"
+    },
+    {
+      "path": "db/schema.ts",
+      "size_bytes": 173,
+      "sha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "size_bytes": 155,
+      "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "size_bytes": 66,
+      "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "size_bytes": 483,
+      "sha256": "275a07c13fc7c83a652efcfa9fb6a207c451a2f5088e6793415ce44281285720"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "size_bytes": 1758,
+      "sha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "size_bytes": 379,
+      "sha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3"
+    },
+    {
+      "path": "next.config.ts",
+      "size_bytes": 140,
+      "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1"
+    },
+    {
+      "path": "package-lock.json",
+      "size_bytes": 388498,
+      "sha256": "28b3ee9a2c4032bd56a5188208b3b958f2d45b1e3e368d17286bd2f07ff7b8ef"
+    },
+    {
+      "path": "package.json",
+      "size_bytes": 1131,
+      "sha256": "2d1fa8817529e47323c961dba921ca4e61f29d550202f58441ec8f10de48ec38"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "size_bytes": 101,
+      "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+    },
+    {
+      "path": "public/favicon.svg",
+      "size_bytes": 718,
+      "sha256": "3e8863288c2d43dd33d2a71de317dcf9198f09932ea8d61e0def1b846a865435"
+    },
+    {
+      "path": "public/file.svg",
+      "size_bytes": 391,
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    {
+      "path": "public/globe.svg",
+      "size_bytes": 1035,
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    {
+      "path": "public/og.png",
+      "size_bytes": 1582945,
+      "sha256": "7ae2d6fd1fefd11d603025b2d3140cb83f970694c6a7f8125738bd795507ad39"
+    },
+    {
+      "path": "public/products/aqua-set.jpg",
+      "size_bytes": 199737,
+      "sha256": "aceb8f8b396837919bac9b4e66caa555da1a7a3f3238f6c5afd4034dc0e263e0"
+    },
+    {
+      "path": "public/products/proya-set.jpg",
+      "size_bytes": 42770,
+      "sha256": "ac5ca158ab762b3b44231b9924404ff5f3ca13dc21768703e8fc39ad50e75971"
+    },
+    {
+      "path": "public/products/ruby-cream.png",
+      "size_bytes": 1687171,
+      "sha256": "9c59755f6e3aa287a860cd01ed916f7f152626491318b4a7fd60105834c1568e"
+    },
+    {
+      "path": "public/products/ruby-serum.png",
+      "size_bytes": 382653,
+      "sha256": "6b913747a10725efb2b027a4fb1ab1c648a139394b64124d8158a14542aef21f"
+    },
+    {
+      "path": "public/products/soothing-mask.jpg",
+      "size_bytes": 186181,
+      "sha256": "35f027ba6efc5b0d35308c43c80064b9e999bf1834384a0ae87c6f53cfe74160"
+    },
+    {
+      "path": "public/window.svg",
+      "size_bytes": 385,
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1332,
+      "sha256": "9b0390d6ecd06df8f7f71b3489ccb7b72db6376d935f60ae9674076a46861b56"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "size_bytes": 3638,
+      "sha256": "60c1480239092d91f72acea87edf42511742c738c4b6d91a8d5a20a09c66a449"
+    },
+    {
+      "path": "tsconfig.json",
+      "size_bytes": 700,
+      "sha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc"
+    },
+    {
+      "path": "vite.config.ts",
+      "size_bytes": 1756,
+      "sha256": "5d68239b2f24f42354e8a05cf69b83fd8f3ce34727f2edf2b55283e4f732c77a"
+    },
+    {
+      "path": "worker/index.ts",
+      "size_bytes": 1778,
+      "sha256": "6f8983ab616309202039ad672b1a46a835bede1bb77636dc751613c664f969e5"
+    }
+  ]
+}
